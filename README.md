@@ -29,4 +29,4 @@ This project analyzes a healthcare dataset using Python to identify trends, perf
 
 ## Author
 
-**Krushna Shirsath**
+**Sandeep Baghel**

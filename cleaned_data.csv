@@ -1,0 +1,516 @@
+Patient_ID,Age,Gender,Blood_Group,Height_cm,Weight_kg,BMI,Disease,Department,City,Admission_Date,Discharge_Date,Treatment_Cost,Insurance_Status,Outcome,Stay_Days,Age_Group
+P0001,24.0,Male,A+,162,56.0,21.3,Migraine,Pulmonology,Kolkata,2025-07-28,2025-08-06,92083.0,No,Recovered,9,18–30
+P0002,38.0,Male,B+,153,88.0,37.6,Diabetes,General Medicine,Hyderabad,2025-10-15,2025-10-26,27967.0,No,Recovered,11,31–45
+P0003,18.0,Male,B+,165,102.0,37.5,Asthma,Cardiology,Delhi,2025-02-22,2025-02-24,243852.0,No,Critical,2,18–30
+P0004,79.0,Female,O-,161,105.0,40.5,COVID-19,Pulmonology,Patna,2025-01-19,2025-01-29,143169.0,No,Recovered,10,60+
+P0005,68.0,Female,O+,186,110.0,31.8,Arthritis,Pulmonology,Pune,2025-08-11,2025-08-29,227125.0,Yes,Critical,18,60+
+P0006,28.0,Female,O+,176,,25.2,Hypertension,Oncology,Bengaluru,2025-03-29,2025-04-09,106621.0,No,Recovered,11,18–30
+P0007,42.0,Male,AB-,182,56.0,16.9,COVID-19,General Medicine,Kolkata,2025-11-18,2025-11-30,136336.0,Yes,Critical,12,31–45
+P0008,54.0,Male,B+,176,74.0,23.9,Pneumonia,General Medicine,Hyderabad,2025-10-06,2025-10-22,125925.0,Yes,Recovered,16,46–60
+P0009,35.0,Female,AB+,174,,22.8,Migraine,Oncology,Bengaluru,2025-01-11,2025-01-20,5093.0,Yes,Critical,9,31–45
+P0010,26.0,Male,O+,177,90.0,28.7,Diabetes,Pulmonology,Bengaluru,2025-12-29,2026-01-01,24263.0,No,Recovered,3,18–30
+P0011,59.0,Female,O+,161,105.0,40.5,Arthritis,Cardiology,Patna,2025-01-17,2025-02-04,171745.0,Yes,Ongoing,18,46–60
+P0012,26.0,Male,A+,190,,17.5,Migraine,Pulmonology,Delhi,2025-07-10,2025-07-18,43309.0,No,Ongoing,8,18–30
+P0013,65.0,Male,,153,88.0,37.6,Migraine,Cardiology,Patna,2025-09-22,2025-09-26,40655.0,No,Critical,4,60+
+P0014,20.0,Female,O+,167,102.0,36.6,Diabetes,Neurology,Kolkata,2025-12-31,2026-01-15,90159.0,Yes,Ongoing,15,18–30
+P0015,,Female,A-,151,92.0,40.3,Heart Disease,Pulmonology,Mumbai,2025-04-26,2025-05-15,58286.0,No,Ongoing,19,
+P0016,68.0,Male,A+,147,109.0,50.4,COVID-19,Orthopedics,Kolkata,2025-02-11,2025-02-18,65536.0,Yes,Critical,7,60+
+P0017,58.0,Male,B+,150,88.0,39.1,Pneumonia,General Medicine,Patna,2025-10-11,2025-10-29,109426.0,Yes,Ongoing,18,46–60
+P0018,80.0,Male,,166,95.0,34.5,Pneumonia,Orthopedics,Patna,2025-04-25,2025-05-12,158255.0,Yes,Critical,17,60+
+P0019,24.0,Female,AB-,168,103.0,36.5,COVID-19,General Medicine,Delhi,2025-07-05,2025-07-19,217719.0,Yes,Recovered,14,18–30
+P0020,66.0,Female,B+,148,98.0,44.7,Migraine,Orthopedics,Pune,2025-07-12,2025-07-29,246613.0,No,Recovered,17,60+
+P0021,51.0,Male,O+,177,86.0,27.5,Heart Disease,Cardiology,Bengaluru,2025-01-29,2025-02-11,155347.0,No,Recovered,13,46–60
+P0022,75.0,Female,B-,162,101.0,38.5,Pneumonia,Pulmonology,Kolkata,2025-10-16,2025-11-04,242361.0,No,Ongoing,19,60+
+P0023,24.0,Female,B+,156,60.0,24.7,Pneumonia,Pulmonology,Pune,2025-01-11,2025-01-25,128288.0,Yes,Ongoing,14,18–30
+P0024,65.0,Female,A+,159,49.0,19.4,Arthritis,Oncology,Bengaluru,2025-08-26,2025-09-12,64657.0,Yes,Ongoing,17,60+
+P0025,54.0,Male,A+,155,98.0,40.8,Pneumonia,Oncology,Mumbai,2025-07-03,2025-07-17,56967.0,Yes,Ongoing,14,46–60
+P0026,85.0,Female,B-,155,69.0,28.7,Heart Disease,Pulmonology,Pune,2025-06-05,2025-06-21,32060.0,No,Critical,16,60+
+P0027,53.0,Female,O-,157,53.0,21.5,Hypertension,Cardiology,Kolkata,2025-11-22,2025-12-05,118419.0,No,Critical,13,46–60
+P0028,63.0,Male,B-,154,108.0,45.5,Diabetes,Neurology,Mumbai,2025-03-10,2025-03-17,24251.0,No,Recovered,7,60+
+P0029,19.0,,B-,171,86.0,29.4,Migraine,Oncology,Delhi,2025-10-08,2025-10-09,248051.0,Yes,Ongoing,1,18–30
+P0030,32.0,Male,AB-,163,86.0,32.4,Asthma,General Medicine,Mumbai,2025-04-19,2025-05-06,113603.0,Yes,Critical,17,31–45
+P0031,73.0,Female,A+,170,69.0,23.9,Heart Disease,Neurology,Bengaluru,2025-07-19,2025-07-22,196685.0,Yes,Recovered,3,60+
+P0032,33.0,Male,O-,174,90.0,29.7,Arthritis,Orthopedics,Delhi,2025-10-10,2025-10-30,60934.0,No,Recovered,20,31–45
+P0033,31.0,Male,B-,177,57.0,18.2,Migraine,Neurology,Bengaluru,2025-10-31,2025-11-11,38068.0,No,Recovered,11,31–45
+P0034,18.0,Male,B+,155,56.0,23.3,COVID-19,General Medicine,Bengaluru,2025-06-19,2025-06-21,57644.0,No,Recovered,2,18–30
+P0035,25.0,Male,A+,154,59.0,24.9,Arthritis,General Medicine,Hyderabad,2025-08-25,2025-08-28,219879.0,Yes,Recovered,3,18–30
+P0036,48.0,Male,A+,172,88.0,29.7,Heart Disease,Orthopedics,Patna,2025-12-10,2025-12-15,110044.0,No,Recovered,5,46–60
+P0037,25.0,Female,B-,148,53.0,24.2,Asthma,Pulmonology,Hyderabad,2025-02-26,2025-03-06,5210.0,No,Ongoing,8,18–30
+P0038,65.0,Female,AB-,168,61.0,21.6,Arthritis,Oncology,Hyderabad,2025-08-02,2025-08-04,5861.0,No,Critical,2,60+
+P0039,18.0,Male,AB-,186,82.0,23.7,Pneumonia,Cardiology,Patna,2025-02-10,2025-02-23,161324.0,Yes,Ongoing,13,18–30
+P0040,27.0,Female,AB+,157,71.0,28.8,Asthma,General Medicine,Pune,2025-07-03,2025-07-17,73252.0,Yes,Critical,14,18–30
+P0041,38.0,Male,A-,157,91.0,36.9,Heart Disease,Cardiology,Pune,2025-04-05,2025-04-09,,Yes,Ongoing,4,31–45
+P0042,64.0,Female,A-,153,77.0,32.9,Hypertension,Orthopedics,Delhi,2025-07-30,2025-08-02,214517.0,No,Ongoing,3,60+
+P0043,48.0,Male,O-,145,56.0,26.6,Migraine,Orthopedics,Patna,2025-02-27,2025-03-19,52263.0,Yes,Ongoing,20,46–60
+P0044,18.0,Female,B+,171,71.0,24.3,Hypertension,Neurology,Kolkata,2025-05-03,2025-05-04,74909.0,No,Recovered,1,18–30
+P0045,115.0,Female,AB+,149,48.0,21.6,Diabetes,Oncology,Patna,2025-03-04,2025-03-23,147500.0,Yes,Ongoing,19,60+
+P0046,57.0,Female,AB+,183,88.0,26.3,COVID-19,General Medicine,Mumbai,2025-01-12,2025-01-17,135415.0,Yes,Ongoing,5,46–60
+P0047,26.0,Male,A-,154,66.0,27.8,Pneumonia,Pulmonology,Mumbai,2025-12-08,2025-12-10,110046.0,No,Critical,2,18–30
+P0048,64.0,Male,AB+,149,,32.4,Diabetes,Neurology,Patna,2025-02-15,2025-03-02,14341.0,Yes,Critical,15,60+
+P0049,85.0,Female,AB-,151,51.0,22.4,Asthma,Oncology,Patna,2025-07-30,2025-08-15,111090.0,No,Critical,16,60+
+P0050,31.0,Male,AB+,150,50.0,22.2,Arthritis,Pulmonology,Bengaluru,2025-04-21,2025-04-26,190018.0,No,Ongoing,5,31–45
+P0051,70.0,Male,A-,156,56.0,23.0,Pneumonia,Oncology,Mumbai,2025-01-02,2025-01-21,169343.0,No,Recovered,19,60+
+P0052,65.0,Female,B-,163,104.0,39.1,Asthma,Cardiology,Delhi,2025-07-11,2025-07-21,18733.0,Yes,Ongoing,10,60+
+P0053,65.0,,B-,171,67.0,22.9,Migraine,Neurology,Kolkata,2025-02-23,2025-03-15,183161.0,Yes,Ongoing,20,60+
+P0054,85.0,Female,AB+,159,108.0,42.7,Arthritis,Oncology,Bengaluru,2025-06-21,2025-07-02,51256.0,Yes,Recovered,11,60+
+P0055,24.0,Male,B+,189,63.0,17.6,Asthma,Oncology,Patna,2025-07-08,2025-07-10,109703.0,Yes,Critical,2,18–30
+P0056,49.0,Male,O-,177,68.0,21.7,Asthma,Orthopedics,Delhi,2025-09-06,2025-09-23,182392.0,No,Recovered,17,46–60
+P0057,26.0,Male,O+,172,105.0,35.5,Migraine,Oncology,Pune,2025-07-22,2025-08-02,,No,Ongoing,11,18–30
+P0058,19.0,,AB-,152,49.0,21.2,COVID-19,Oncology,Kolkata,2026-01-01,2026-01-13,187175.0,No,Critical,12,18–30
+P0059,61.0,Male,O-,187,74.0,21.2,COVID-19,Oncology,Hyderabad,2025-01-17,2025-01-23,127918.0,No,Critical,6,60+
+P0060,19.0,Female,A-,167,61.0,21.9,Arthritis,Neurology,Hyderabad,2025-05-18,2025-05-30,17296.0,Yes,Critical,12,18–30
+P0061,34.0,Female,O+,178,46.0,14.5,Pneumonia,Cardiology,Hyderabad,2025-11-04,2025-11-20,54397.0,Yes,Ongoing,16,31–45
+P0062,47.0,Female,A-,166,98.0,35.6,Arthritis,Pulmonology,Bengaluru,2025-09-08,2025-09-12,31872.0,Yes,Ongoing,4,46–60
+P0063,29.0,Male,A-,189,60.0,16.8,Hypertension,General Medicine,Hyderabad,2025-07-08,2025-07-14,174163.0,No,Critical,6,18–30
+P0064,73.0,Male,AB+,173,50.0,16.7,Migraine,General Medicine,Hyderabad,2025-08-01,2025-08-03,226289.0,No,Ongoing,2,60+
+P0065,62.0,Male,A+,149,87.0,39.2,Pneumonia,General Medicine,Kolkata,2025-11-07,2025-11-13,89240.0,Yes,Recovered,6,60+
+P0066,,Female,AB-,165,81.0,29.8,COVID-19,Pulmonology,Hyderabad,2025-03-19,2025-03-30,231929.0,Yes,Critical,11,
+P0067,,Female,B-,154,71.0,29.9,Heart Disease,Neurology,Mumbai,2025-06-19,2025-06-27,126516.0,No,Ongoing,8,
+P0068,78.0,Female,AB+,185,102.0,29.8,Hypertension,Oncology,Bengaluru,2025-08-26,2025-09-04,232108.0,No,Recovered,9,60+
+P0069,59.0,Male,O+,169,61.0,21.4,Pneumonia,Oncology,Kolkata,2025-04-30,2025-05-02,76489.0,Yes,Ongoing,2,46–60
+P0070,40.0,Male,O+,178,75.0,23.7,,Orthopedics,Bengaluru,2025-12-24,2026-01-07,186985.0,Yes,Recovered,14,31–45
+P0071,62.0,Female,B+,189,61.0,17.1,Asthma,General Medicine,Delhi,2025-03-13,2025-03-23,166703.0,Yes,Critical,10,60+
+P0072,43.0,Male,AB+,163,69.0,26.0,COVID-19,Pulmonology,Bengaluru,2025-10-29,2025-11-18,11749.0,Yes,Recovered,20,31–45
+P0073,60.0,Male,B-,184,65.0,19.2,Diabetes,Orthopedics,Mumbai,2025-06-16,2025-06-18,26907.0,Yes,Ongoing,2,46–60
+P0074,73.0,Male,B-,156,57.0,23.4,,General Medicine,Mumbai,2025-10-12,2025-10-29,67262.0,No,Recovered,17,60+
+P0075,75.0,Female,AB+,153,92.0,39.3,Migraine,General Medicine,Patna,2025-07-24,2025-07-25,162552.0,Yes,Critical,1,60+
+P0076,36.0,Male,B-,157,,30.0,Asthma,Pulmonology,Mumbai,2025-06-03,2025-06-18,65920.0,No,Critical,15,31–45
+P0077,33.0,Male,O-,151,83.0,36.4,,Neurology,Kolkata,2025-11-18,2025-11-24,172171.0,Yes,Critical,6,31–45
+P0078,,Female,AB+,190,54.0,15.0,,Neurology,Kolkata,2025-05-18,2025-05-27,58558.0,Yes,Recovered,9,
+P0079,,Male,B+,171,110.0,37.6,Pneumonia,Orthopedics,Kolkata,2025-06-04,2025-06-20,23884.0,No,Critical,16,
+P0080,57.0,,AB+,151,102.0,44.7,Arthritis,Neurology,Bengaluru,2025-11-23,2025-11-24,217950.0,No,Ongoing,1,46–60
+P0081,32.0,Female,A-,189,108.0,30.2,COVID-19,Orthopedics,Patna,2025-09-03,2025-09-15,71714.0,No,Critical,12,31–45
+P0082,85.0,Female,O-,150,58.0,25.8,Pneumonia,General Medicine,Mumbai,2025-01-05,2025-01-17,51762.0,Yes,Recovered,12,60+
+P0083,60.0,Male,O+,158,102.0,40.9,Arthritis,General Medicine,Mumbai,2025-03-15,2025-04-02,72731.0,No,Ongoing,18,46–60
+P0084,73.0,Female,B-,188,45.0,12.7,COVID-19,Neurology,Kolkata,2025-12-28,2026-01-05,95148.0,No,Critical,8,60+
+P0085,59.0,Female,O-,190,45.0,12.5,Diabetes,Neurology,Pune,2025-12-01,2025-12-16,73031.0,Yes,Ongoing,15,46–60
+P0086,41.0,Male,B+,176,68.0,22.0,Asthma,Oncology,Delhi,2025-12-09,2025-12-15,210318.0,No,Critical,6,31–45
+P0087,78.0,Female,AB-,148,93.0,42.5,Asthma,Cardiology,Mumbai,2025-10-16,2025-10-30,199139.0,No,Critical,14,60+
+P0088,56.0,Female,O-,150,25.0,11.1,Diabetes,Cardiology,Mumbai,2025-08-02,2025-08-11,43858.0,No,Ongoing,9,46–60
+P0089,47.0,Female,B+,151,108.0,47.4,COVID-19,Neurology,Pune,2025-01-21,2025-02-10,185514.0,Yes,Recovered,20,46–60
+P0090,83.0,Female,AB+,179,109.0,34.0,COVID-19,Orthopedics,Hyderabad,2025-09-03,2025-09-21,107834.0,Yes,Critical,18,60+
+P0091,45.0,Male,AB+,157,49.0,19.9,Heart Disease,General Medicine,Delhi,2025-12-06,2025-12-23,40904.0,No,Ongoing,17,31–45
+P0092,34.0,Male,AB-,160,64.0,25.0,Hypertension,Pulmonology,Bengaluru,2025-02-09,2025-02-21,228962.0,Yes,Critical,12,31–45
+P0093,20.0,Female,AB-,168,50.0,17.7,Hypertension,Neurology,Patna,2025-11-28,2025-12-18,56357.0,No,Critical,20,18–30
+P0094,70.0,Male,AB-,160,101.0,39.5,Heart Disease,General Medicine,Kolkata,2025-10-29,2025-11-08,188864.0,No,Critical,10,60+
+P0095,80.0,Male,O-,168,110.0,39.0,Pneumonia,Pulmonology,Pune,2025-10-27,2025-11-08,174290.0,Yes,Recovered,12,60+
+P0096,73.0,Male,B-,148,91.0,41.5,Arthritis,Cardiology,Mumbai,2025-07-21,2025-08-06,175545.0,Yes,Recovered,16,60+
+P0097,34.0,Female,O+,161,76.0,29.3,COVID-19,Cardiology,Pune,2025-08-11,2025-08-16,198660.0,Yes,Critical,5,31–45
+P0098,38.0,Female,B-,160,51.0,19.9,Migraine,General Medicine,Kolkata,2025-09-13,2025-09-24,243343.0,Yes,Critical,11,31–45
+P0099,57.0,,B+,186,,26.9,Arthritis,Neurology,Delhi,2025-12-21,2025-12-27,145295.0,Yes,Recovered,6,46–60
+P0100,73.0,Male,O-,185,88.0,25.7,Diabetes,Pulmonology,Patna,2025-08-23,2025-08-27,19947.0,No,Recovered,4,60+
+P0101,38.0,Male,AB+,190,57.0,15.8,COVID-19,Neurology,Hyderabad,2025-03-09,2025-03-20,69566.0,No,Recovered,11,31–45
+P0102,22.0,Female,B+,149,109.0,49.1,Asthma,Oncology,Bengaluru,2025-04-22,2025-05-08,199480.0,No,Critical,16,18–30
+P0103,48.0,Male,AB-,152,99.0,42.8,Hypertension,Neurology,Bengaluru,2025-02-25,2025-03-12,158199.0,Yes,Critical,15,46–60
+P0104,35.0,Male,AB+,160,73.0,28.5,Heart Disease,Cardiology,Mumbai,2025-05-06,2025-05-12,66600.0,Yes,Critical,6,31–45
+P0105,50.0,Female,A+,168,91.0,32.2,Hypertension,Oncology,Patna,2025-03-01,2025-03-09,190723.0,No,Recovered,8,46–60
+P0106,84.0,Female,O-,186,95.0,27.5,COVID-19,Pulmonology,Bengaluru,2025-05-06,2025-05-18,132270.0,Yes,Recovered,12,60+
+P0107,25.0,Male,A+,151,57.0,25.0,COVID-19,Orthopedics,Patna,2025-08-31,2025-09-13,242115.0,Yes,Recovered,13,18–30
+P0108,38.0,Female,A+,184,83.0,24.5,Hypertension,Orthopedics,Hyderabad,2025-05-13,2025-05-16,136434.0,Yes,Ongoing,3,31–45
+P0109,70.0,Male,O-,187,104.0,29.7,Asthma,Pulmonology,Kolkata,2025-06-23,2025-06-27,246935.0,No,Critical,4,60+
+P0110,59.0,Male,O-,176,81.0,26.1,,Cardiology,Pune,2025-03-28,2025-04-04,128520.0,Yes,Ongoing,7,46–60
+P0111,68.0,Female,A+,160,94.0,36.7,Hypertension,General Medicine,Patna,2025-06-08,2025-06-19,38396.0,Yes,Ongoing,11,60+
+P0112,72.0,Male,B-,153,104.0,44.4,Hypertension,Cardiology,Kolkata,2025-03-04,2025-03-13,224832.0,No,Ongoing,9,60+
+P0113,35.0,Male,A+,165,100.0,36.7,Migraine,Orthopedics,Bengaluru,2025-06-01,2025-06-04,207450.0,Yes,Ongoing,3,31–45
+P0114,46.0,Male,O-,163,104.0,39.1,Hypertension,Neurology,Mumbai,2025-12-10,2025-12-28,233663.0,Yes,Critical,18,46–60
+P0115,56.0,Male,O+,153,85.0,36.3,Arthritis,Neurology,Bengaluru,2025-04-05,2025-04-15,196289.0,No,Recovered,10,46–60
+P0116,18.0,Male,O-,163,109.0,41.0,Migraine,Neurology,Hyderabad,2025-11-13,2025-11-14,82642.0,No,Ongoing,1,18–30
+P0117,25.0,Male,AB-,160,101.0,39.5,Heart Disease,Neurology,Bengaluru,2025-04-26,2025-04-27,239119.0,Yes,Recovered,1,18–30
+P0118,76.0,Male,B+,155,47.0,19.6,Asthma,Pulmonology,Hyderabad,2025-10-10,2025-10-15,148619.0,Yes,Recovered,5,60+
+P0119,29.0,Female,,160,104.0,40.6,Migraine,General Medicine,Pune,2025-09-03,2025-09-20,11493.0,No,Recovered,17,18–30
+P0120,67.0,Male,B+,183,88.0,26.3,Asthma,Neurology,Delhi,2025-09-16,2025-10-05,211055.0,Yes,Ongoing,19,60+
+P0121,115.0,Female,AB+,153,85.0,36.3,Asthma,Cardiology,Hyderabad,2025-11-09,2025-11-25,64173.0,No,Critical,16,60+
+P0122,,Male,AB+,149,,32.0,Pneumonia,Oncology,Bengaluru,2025-07-10,2025-07-11,14315.0,No,Ongoing,1,
+P0123,46.0,Female,AB-,158,93.0,37.3,Hypertension,Oncology,Mumbai,2025-03-03,2025-03-22,56814.0,Yes,Recovered,19,46–60
+P0124,85.0,,AB+,186,70.0,20.2,Asthma,Pulmonology,Pune,2025-03-30,2025-04-08,6339.0,No,Critical,9,60+
+P0125,51.0,Female,O+,172,55.0,18.6,Arthritis,Pulmonology,Delhi,2025-01-08,2025-01-19,127568.0,No,Ongoing,11,46–60
+P0126,37.0,Female,B-,156,56.0,23.0,Diabetes,Oncology,Hyderabad,2025-08-10,2025-08-13,223749.0,Yes,Ongoing,3,31–45
+P0127,40.0,Female,AB+,183,57.0,17.0,Asthma,Orthopedics,Kolkata,2025-04-24,2025-05-04,49219.0,No,Critical,10,31–45
+P0128,23.0,Male,A-,164,,30.1,Diabetes,Orthopedics,Patna,2025-05-26,2025-06-08,27349.0,No,Recovered,13,18–30
+P0129,45.0,Female,A+,147,110.0,50.9,Asthma,Orthopedics,Delhi,2025-12-19,2026-01-08,236681.0,No,Critical,20,31–45
+P0130,,Male,O-,162,68.0,25.9,Migraine,Neurology,Pune,2025-10-13,2025-10-20,49295.0,No,Ongoing,7,
+P0131,,Male,B-,148,88.0,40.2,Pneumonia,Neurology,Patna,2025-05-26,2025-06-12,100847.0,No,Ongoing,17,
+P0132,59.0,Male,B+,180,91.0,28.1,Arthritis,Orthopedics,Mumbai,2025-11-03,2025-11-05,139300.0,No,Critical,2,46–60
+P0133,49.0,Male,AB-,175,81.0,26.4,Pneumonia,Pulmonology,Delhi,2025-12-29,2026-01-16,231196.0,No,Critical,18,46–60
+P0134,63.0,Male,O+,176,107.0,34.5,Asthma,Pulmonology,Hyderabad,2025-01-29,2025-02-17,81362.0,No,Recovered,19,60+
+P0135,53.0,Female,AB-,163,60.0,22.6,Asthma,Oncology,Patna,2025-03-05,2025-03-11,99697.0,Yes,Critical,6,46–60
+P0136,45.0,Female,A+,167,54.0,19.4,Pneumonia,Oncology,Mumbai,2025-08-12,2025-08-16,140041.0,Yes,Recovered,4,31–45
+P0137,45.0,Male,B+,178,65.0,20.5,Hypertension,Neurology,Delhi,2025-04-02,2025-04-04,14476.0,Yes,Ongoing,2,31–45
+P0138,66.0,Male,O+,167,68.0,24.4,COVID-19,Pulmonology,Pune,2025-06-14,2025-06-16,218130.0,No,Critical,2,60+
+P0139,26.0,Male,AB-,185,53.0,15.5,Asthma,Oncology,Hyderabad,2025-01-10,2025-01-28,190844.0,No,Critical,18,18–30
+P0140,70.0,,B+,174,51.0,16.8,Diabetes,General Medicine,Hyderabad,2025-01-27,2025-02-04,225330.0,Yes,Recovered,8,60+
+P0141,84.0,Female,O-,150,82.0,36.4,Pneumonia,General Medicine,Delhi,2025-11-04,2025-11-06,29161.0,Yes,Ongoing,2,60+
+P0142,80.0,Female,B-,160,59.0,23.0,Migraine,Orthopedics,Delhi,2025-11-03,2025-11-17,39954.0,No,Recovered,14,60+
+P0143,25.0,Female,AB-,169,55.0,19.3,Arthritis,Oncology,Bengaluru,2025-08-27,2025-09-13,218799.0,Yes,Critical,17,18–30
+P0144,61.0,Female,O-,146,68.0,31.9,Heart Disease,Orthopedics,Hyderabad,2025-08-01,2025-08-15,207097.0,No,Critical,14,60+
+P0145,79.0,Male,AB+,159,105.0,41.5,Arthritis,Neurology,Mumbai,2025-06-22,2025-07-05,206698.0,Yes,Recovered,13,60+
+P0146,61.0,Male,O-,181,99.0,30.2,Arthritis,Cardiology,Pune,2025-01-20,2025-02-05,123748.0,Yes,Ongoing,16,60+
+P0147,,Female,,170,62.0,21.5,Hypertension,Oncology,Mumbai,2025-06-17,2025-06-23,243593.0,Yes,Ongoing,6,
+P0148,60.0,Female,O-,178,69.0,21.8,Heart Disease,Neurology,Kolkata,2025-11-09,2025-11-29,27477.0,No,Ongoing,20,46–60
+P0149,35.0,Male,A-,169,79.0,27.7,COVID-19,Pulmonology,Bengaluru,2025-10-24,2025-10-26,216877.0,Yes,Recovered,2,31–45
+P0150,34.0,Male,AB+,169,53.0,18.6,Diabetes,Cardiology,Patna,2025-06-13,2025-06-27,148519.0,Yes,Recovered,14,31–45
+P0151,61.0,Female,O+,187,79.0,22.6,Pneumonia,Orthopedics,Kolkata,2025-07-11,2025-07-23,23061.0,Yes,Ongoing,12,60+
+P0152,55.0,Female,B+,148,70.0,32.0,Arthritis,Orthopedics,Bengaluru,2025-12-09,2025-12-18,39587.0,Yes,Recovered,9,46–60
+P0153,61.0,Female,AB-,164,69.0,25.7,Heart Disease,Orthopedics,Hyderabad,2025-07-31,2025-08-15,236429.0,Yes,Recovered,15,60+
+P0154,65.0,Male,B+,188,47.0,13.3,Diabetes,Cardiology,Hyderabad,2025-03-31,2025-04-15,37821.0,Yes,Recovered,15,60+
+P0155,76.0,Male,A+,155,57.0,23.7,Asthma,Neurology,Patna,2025-04-29,2025-05-17,34212.0,No,Critical,18,60+
+P0156,46.0,Male,A-,184,70.0,20.7,Pneumonia,Oncology,Delhi,2025-09-12,2025-09-18,226006.0,Yes,Critical,6,46–60
+P0157,29.0,Female,A+,187,93.0,26.6,Diabetes,Oncology,Pune,2025-08-02,2025-08-14,172693.0,No,Critical,12,18–30
+P0158,79.0,Female,O+,162,49.0,18.7,Diabetes,Orthopedics,Delhi,2025-09-02,2025-09-22,68055.0,No,Ongoing,20,60+
+P0159,65.0,Male,O-,153,48.0,20.5,Diabetes,General Medicine,Patna,2025-07-29,2025-07-30,175609.0,No,Critical,1,60+
+P0160,83.0,Female,O-,155,98.0,40.8,,Orthopedics,Delhi,2025-11-20,2025-12-03,192598.0,No,Critical,13,60+
+P0161,59.0,Female,B-,179,85.0,26.5,Asthma,Pulmonology,Kolkata,2025-09-25,2025-10-04,12730.0,Yes,Critical,9,46–60
+P0162,58.0,Male,AB+,151,106.0,46.5,Arthritis,Pulmonology,Pune,2025-12-30,2026-01-08,73657.0,Yes,Critical,9,46–60
+P0163,53.0,Male,AB-,167,45.0,16.1,Asthma,General Medicine,Patna,2025-09-01,2025-09-10,19649.0,Yes,Critical,9,46–60
+P0164,71.0,Female,,187,56.0,16.0,Asthma,Pulmonology,Mumbai,2025-09-28,2025-10-18,71354.0,No,Recovered,20,60+
+P0165,,Female,O-,146,45.0,21.1,Hypertension,Pulmonology,Bengaluru,2025-08-31,2025-09-20,161716.0,Yes,Critical,20,
+P0166,59.0,Female,O+,160,87.0,34.0,COVID-19,Orthopedics,Patna,2025-02-05,2025-02-15,51274.0,Yes,Ongoing,10,46–60
+P0167,82.0,Male,AB-,162,80.0,30.5,Hypertension,Neurology,Bengaluru,2025-11-04,2025-11-14,188194.0,Yes,Ongoing,10,60+
+P0168,,Male,B-,148,96.0,43.8,Pneumonia,General Medicine,Pune,2025-02-10,2025-02-26,24061.0,Yes,Critical,16,
+P0169,55.0,Male,O+,167,96.0,34.4,Pneumonia,General Medicine,Kolkata,2025-02-06,2025-02-24,200967.0,No,Recovered,18,46–60
+P0170,72.0,Female,O-,168,100.0,35.4,Heart Disease,Neurology,Mumbai,2025-09-02,2025-09-05,191515.0,No,Critical,3,60+
+P0171,82.0,Female,AB+,174,108.0,35.7,Pneumonia,Pulmonology,Pune,2025-06-03,2025-06-04,92432.0,No,Recovered,1,60+
+P0172,51.0,Female,B-,147,51.0,23.6,COVID-19,Pulmonology,Hyderabad,2025-01-13,2025-01-17,31272.0,Yes,Critical,4,46–60
+P0173,82.0,Female,AB-,148,71.0,32.4,Hypertension,Cardiology,Delhi,2025-08-26,2025-08-29,120544.0,Yes,Recovered,3,60+
+P0174,27.0,Male,AB+,159,49.0,19.4,Hypertension,Neurology,Delhi,2025-06-23,2025-06-29,23780.0,No,Ongoing,6,18–30
+P0175,29.0,,O+,151,72.0,31.6,,Pulmonology,Bengaluru,2025-12-09,2025-12-29,247482.0,Yes,Recovered,20,18–30
+P0176,55.0,Female,A-,152,75.0,32.5,Asthma,Oncology,Hyderabad,2025-11-09,2025-11-17,15954.0,No,Ongoing,8,46–60
+P0177,72.0,Female,AB-,154,100.0,42.2,COVID-19,General Medicine,Mumbai,2025-05-28,2025-06-09,125659.0,No,Ongoing,12,60+
+P0178,58.0,Female,AB+,166,52.0,18.9,Migraine,Pulmonology,Mumbai,2025-07-20,2025-08-01,69474.0,Yes,Ongoing,12,46–60
+P0179,23.0,Female,B-,153,76.0,32.5,Pneumonia,Orthopedics,Delhi,2025-03-28,2025-04-13,135201.0,No,Recovered,16,18–30
+P0180,75.0,Female,A-,166,105.0,38.1,COVID-19,Pulmonology,Kolkata,2025-10-27,2025-10-31,66642.0,Yes,Critical,4,60+
+P0181,41.0,Female,A+,159,74.0,29.3,Pneumonia,Oncology,Patna,2025-08-04,2025-08-07,90772.0,Yes,Critical,3,31–45
+P0182,50.0,Male,AB-,179,51.0,15.9,Diabetes,General Medicine,Delhi,2025-06-18,2025-06-30,170394.0,No,Ongoing,12,46–60
+P0183,45.0,,B+,176,50.0,16.1,Heart Disease,Cardiology,Pune,2025-10-23,2025-11-01,116592.0,No,Critical,9,31–45
+P0184,85.0,Male,O-,180,85.0,26.2,Diabetes,Pulmonology,Patna,2025-03-26,2025-04-03,8303.0,Yes,Critical,8,60+
+P0185,72.0,Female,A-,174,89.0,29.4,Heart Disease,Neurology,Kolkata,2025-01-15,2025-01-20,187070.0,No,Ongoing,5,60+
+P0186,49.0,Male,A+,171,63.0,21.5,Arthritis,Pulmonology,Pune,2025-05-06,2025-05-15,,No,Ongoing,9,46–60
+P0187,19.0,Female,,149,56.0,25.2,Migraine,Orthopedics,Kolkata,2025-11-25,2025-12-01,53649.0,No,Recovered,6,18–30
+P0188,59.0,Female,A+,190,81.0,22.4,Migraine,Neurology,Hyderabad,2025-01-06,2025-01-11,249277.0,No,Recovered,5,46–60
+P0189,26.0,Male,B-,169,90.0,31.5,Migraine,Oncology,Hyderabad,2025-04-19,2025-05-08,150157.0,Yes,Critical,19,18–30
+P0190,61.0,Female,A+,190,50.0,13.9,COVID-19,Oncology,Bengaluru,2025-08-08,2025-08-12,193908.0,Yes,Recovered,4,60+
+P0191,53.0,Female,AB-,173,80.0,26.7,Heart Disease,Oncology,Mumbai,2025-04-04,2025-04-23,211924.0,No,Recovered,19,46–60
+P0192,20.0,Female,A-,174,57.0,18.8,,Oncology,Hyderabad,2025-12-29,2026-01-05,85611.0,No,Ongoing,7,18–30
+P0193,42.0,Male,O-,156,50.0,20.5,Asthma,Cardiology,Kolkata,2025-11-23,2025-11-28,235756.0,Yes,Recovered,5,31–45
+P0194,,Male,AB+,153,87.0,37.2,Diabetes,Cardiology,Mumbai,2025-05-01,2025-05-09,130670.0,Yes,Critical,8,
+P0195,55.0,Male,O-,146,64.0,30.0,Migraine,General Medicine,Mumbai,2025-05-16,2025-05-22,,Yes,Recovered,6,46–60
+P0196,79.0,Male,A+,189,92.0,25.8,Heart Disease,Oncology,Kolkata,2025-10-24,2025-11-06,,Yes,Ongoing,13,60+
+P0197,41.0,Male,B+,159,76.0,30.1,Migraine,Pulmonology,Patna,2025-10-24,2025-10-29,82138.0,No,Recovered,5,31–45
+P0198,33.0,Male,AB+,181,88.0,26.9,Arthritis,Neurology,Mumbai,2025-08-21,2025-08-25,159785.0,Yes,Critical,4,31–45
+P0199,54.0,Male,A-,173,71.0,23.7,,Neurology,Patna,2025-08-09,2025-08-26,42616.0,No,Ongoing,17,46–60
+P0200,26.0,Male,A-,174,47.0,15.5,,Cardiology,Kolkata,2025-08-19,2025-08-21,194117.0,No,Recovered,2,18–30
+P0201,48.0,Female,B+,177,66.0,21.1,Migraine,Neurology,Mumbai,2025-03-18,2025-04-06,63548.0,No,Critical,19,46–60
+P0202,48.0,Male,,171,110.0,37.6,Asthma,Cardiology,Mumbai,2025-06-02,2025-06-21,60964.0,Yes,Recovered,19,46–60
+P0203,27.0,Male,O+,148,102.0,46.6,COVID-19,Pulmonology,Bengaluru,2025-11-17,2025-11-23,55762.0,No,Critical,6,18–30
+P0204,25.0,Female,O-,148,48.0,21.9,Asthma,Neurology,Patna,2025-02-08,2025-02-20,209984.0,Yes,Ongoing,12,18–30
+P0205,24.0,Male,O-,179,85.0,26.5,Migraine,Orthopedics,Hyderabad,2025-04-08,2025-04-26,204890.0,No,Critical,18,18–30
+P0206,19.0,Male,O+,151,109.0,47.8,Heart Disease,Orthopedics,Mumbai,2025-09-15,2025-10-03,108932.0,No,Recovered,18,18–30
+P0207,45.0,Female,A+,164,83.0,30.9,Diabetes,Cardiology,Kolkata,2025-06-09,2025-06-20,207010.0,Yes,Critical,11,31–45
+P0208,31.0,Male,B+,190,93.0,25.8,Hypertension,Neurology,Delhi,2025-09-26,2025-10-08,244047.0,No,Recovered,12,31–45
+P0209,54.0,Female,O-,158,105.0,42.1,Diabetes,Oncology,Bengaluru,2025-04-25,2025-05-14,130163.0,No,Recovered,19,46–60
+P0210,26.0,Male,AB+,154,96.0,40.5,Arthritis,Cardiology,Kolkata,2025-02-21,2025-03-13,226210.0,No,Ongoing,20,18–30
+P0211,71.0,Male,B+,152,79.0,34.2,Pneumonia,General Medicine,Hyderabad,2025-09-16,2025-09-29,139505.0,Yes,Recovered,13,60+
+P0212,57.0,,O-,171,,32.1,Arthritis,General Medicine,Mumbai,2025-09-08,2025-09-21,140280.0,Yes,Critical,13,46–60
+P0213,,Male,A+,146,52.0,24.4,Migraine,General Medicine,Delhi,2025-02-01,2025-02-12,112550.0,No,Ongoing,11,
+P0214,69.0,Male,B+,178,84.0,26.5,Asthma,Neurology,Kolkata,2025-01-03,2025-01-23,122430.0,Yes,Recovered,20,60+
+P0215,37.0,Male,A+,164,96.0,35.7,COVID-19,Pulmonology,Kolkata,2025-12-01,2025-12-11,161056.0,No,Ongoing,10,31–45
+P0216,33.0,Male,A+,179,,30.3,Arthritis,Oncology,Mumbai,2025-08-01,2025-08-10,134798.0,Yes,Critical,9,31–45
+P0217,65.0,Male,A-,146,80.0,37.5,Migraine,Orthopedics,Pune,2025-02-05,2025-02-19,37826.0,No,Ongoing,14,60+
+P0218,,Female,A-,145,83.0,39.5,Diabetes,Oncology,Patna,2025-08-24,2025-09-03,193359.0,Yes,Critical,10,
+P0219,31.0,,O+,146,73.0,34.2,COVID-19,Neurology,Bengaluru,2025-07-05,2025-07-08,,Yes,Ongoing,3,31–45
+P0220,59.0,Male,B+,152,99.0,42.8,Asthma,Neurology,Kolkata,2025-04-11,2025-04-26,31070.0,No,Recovered,15,46–60
+P0221,47.0,Male,AB+,150,78.0,34.7,COVID-19,Neurology,Delhi,2025-01-20,2025-01-24,147205.0,No,Critical,4,46–60
+P0222,55.0,Male,B-,145,220.0,104.6,Heart Disease,General Medicine,Pune,2025-10-12,2025-10-24,126997.0,No,Critical,12,46–60
+P0223,26.0,Female,O+,188,47.0,13.3,Diabetes,Cardiology,Pune,2025-10-25,2025-11-05,178830.0,No,Ongoing,11,18–30
+P0224,28.0,Male,A+,156,93.0,38.2,Diabetes,General Medicine,Pune,2025-04-04,2025-04-24,75752.0,No,Recovered,20,18–30
+P0225,76.0,Female,A+,146,105.0,49.3,Migraine,Oncology,Mumbai,2025-08-15,2025-08-28,190594.0,Yes,Ongoing,13,60+
+P0226,54.0,Male,AB-,154,110.0,46.4,Arthritis,Orthopedics,Hyderabad,2025-06-13,2025-06-24,43185.0,No,Critical,11,46–60
+P0227,60.0,,B-,153,50.0,21.4,Diabetes,Pulmonology,Patna,2025-02-06,2025-02-07,30645.0,No,Recovered,1,46–60
+P0228,70.0,Male,B-,155,94.0,39.1,,Cardiology,Bengaluru,2025-01-29,2025-02-14,9053.0,Yes,Recovered,16,60+
+P0229,51.0,Male,O+,170,78.0,27.0,Migraine,General Medicine,Bengaluru,2025-06-21,2025-07-06,126315.0,No,Recovered,15,46–60
+P0230,38.0,,O-,169,67.0,23.5,Hypertension,Pulmonology,Delhi,2025-12-10,2025-12-11,187506.0,No,Critical,1,31–45
+P0231,21.0,Male,AB-,147,71.0,32.9,Arthritis,Neurology,Mumbai,2025-03-02,2025-03-10,132370.0,No,Recovered,8,18–30
+P0232,81.0,Female,B+,160,98.0,38.3,COVID-19,Neurology,Pune,2025-10-17,2025-10-21,237308.0,Yes,Critical,4,60+
+P0233,42.0,Female,A-,171,97.0,33.2,COVID-19,Pulmonology,Kolkata,2025-11-01,2025-11-20,105215.0,No,Ongoing,19,31–45
+P0234,25.0,Female,O-,168,108.0,38.3,Arthritis,Neurology,Mumbai,2025-11-21,2025-11-27,156593.0,Yes,Ongoing,6,18–30
+P0235,55.0,Female,A+,174,79.0,26.1,Diabetes,Neurology,Kolkata,2025-05-26,2025-06-10,22615.0,Yes,Ongoing,15,46–60
+P0236,40.0,Male,A+,190,91.0,25.2,Arthritis,Oncology,Patna,2025-07-29,2025-08-08,85595.0,No,Critical,10,31–45
+P0237,36.0,Female,AB+,148,87.0,39.7,,Cardiology,Mumbai,2025-07-31,2025-08-10,,No,Critical,10,31–45
+P0238,34.0,Female,B+,153,53.0,22.6,Asthma,Cardiology,Bengaluru,2025-07-04,2025-07-13,112082.0,No,Recovered,9,31–45
+P0239,45.0,,B-,157,,28.4,Hypertension,Pulmonology,Pune,2025-07-09,2025-07-19,40668.0,Yes,Ongoing,10,31–45
+P0240,29.0,Female,A-,187,107.0,30.6,Migraine,Orthopedics,Pune,2025-12-23,2025-12-29,187851.0,No,Recovered,6,18–30
+P0241,81.0,Male,O-,157,82.0,33.3,Heart Disease,Cardiology,Mumbai,2025-05-12,2025-05-21,242498.0,No,Recovered,9,60+
+P0242,75.0,Female,AB-,167,64.0,22.9,Asthma,Pulmonology,Delhi,2025-06-14,2025-06-27,114870.0,Yes,Ongoing,13,60+
+P0243,55.0,Male,AB+,151,81.0,35.5,Diabetes,Orthopedics,Bengaluru,2025-06-21,2025-06-24,174524.0,Yes,Critical,3,46–60
+P0244,58.0,Male,B+,178,59.0,18.6,Hypertension,Cardiology,Patna,2025-03-21,2025-04-07,221810.0,No,Critical,17,46–60
+P0245,44.0,Female,B+,171,66.0,22.6,Asthma,Orthopedics,Patna,2025-03-01,2025-03-03,,No,Ongoing,2,31–45
+P0246,30.0,Female,,170,53.0,18.3,Heart Disease,Oncology,Bengaluru,2025-08-03,2025-08-13,56076.0,No,Ongoing,10,18–30
+P0247,18.0,Male,AB+,179,50.0,15.6,Diabetes,Cardiology,Hyderabad,2025-10-02,2025-10-20,159564.0,Yes,Recovered,18,18–30
+P0248,55.0,Female,A+,181,89.0,27.2,Heart Disease,Oncology,Hyderabad,2025-11-12,2025-12-01,135626.0,No,Recovered,19,46–60
+P0249,82.0,Female,A-,173,81.0,27.1,Diabetes,General Medicine,Bengaluru,2025-04-18,2025-05-07,91698.0,Yes,Recovered,19,60+
+P0250,27.0,Female,AB-,157,107.0,43.4,Arthritis,General Medicine,Kolkata,2025-01-07,2025-01-09,214953.0,No,Recovered,2,18–30
+P0251,50.0,Male,B-,158,93.0,37.3,Asthma,Pulmonology,Hyderabad,2025-10-28,2025-11-12,94004.0,No,Critical,15,46–60
+P0252,,,AB+,183,,28.1,COVID-19,Neurology,Patna,2025-12-03,2025-12-22,85477.0,No,Critical,19,
+P0253,85.0,Female,O-,156,106.0,43.6,Diabetes,Oncology,Patna,2025-01-26,2025-02-07,164317.0,No,Recovered,12,60+
+P0254,19.0,Male,AB+,176,99.0,32.0,Hypertension,Neurology,Hyderabad,2025-02-06,2025-02-14,113151.0,Yes,Recovered,8,18–30
+P0255,28.0,Male,,158,85.0,34.0,Heart Disease,Neurology,Hyderabad,2025-12-07,2025-12-10,93380.0,No,Critical,3,18–30
+P0256,66.0,Male,A+,152,75.0,32.5,Asthma,General Medicine,Mumbai,2025-07-08,2025-07-27,52776.0,Yes,Critical,19,60+
+P0257,27.0,Male,A+,167,45.0,16.1,Asthma,Orthopedics,Pune,2025-10-20,2025-10-29,210327.0,No,Ongoing,9,18–30
+P0258,25.0,Male,A-,158,47.0,18.8,Migraine,Cardiology,Hyderabad,2025-08-17,2025-08-28,,No,Critical,11,18–30
+P0259,52.0,Male,AB-,188,53.0,15.0,Heart Disease,Oncology,Hyderabad,2025-03-01,2025-03-08,159229.0,Yes,Critical,7,46–60
+P0260,47.0,Male,B-,158,71.0,28.4,COVID-19,Pulmonology,Bengaluru,2025-05-30,2025-06-03,118416.0,Yes,Recovered,4,46–60
+P0261,82.0,Male,O+,157,46.0,18.7,COVID-19,General Medicine,Patna,2025-03-26,2025-04-10,22316.0,Yes,Critical,15,60+
+P0262,81.0,Female,AB-,173,67.0,22.4,Diabetes,Orthopedics,Patna,2025-03-07,2025-03-20,93451.0,No,Recovered,13,60+
+P0263,33.0,Male,A-,176,108.0,34.9,Arthritis,Orthopedics,Delhi,2025-03-05,2025-03-21,,No,Ongoing,16,31–45
+P0264,44.0,Male,B+,156,85.0,34.9,Heart Disease,Neurology,Hyderabad,2025-03-28,2025-04-12,46048.0,Yes,Critical,15,31–45
+P0265,75.0,Female,,158,98.0,39.3,Heart Disease,Orthopedics,Bengaluru,2025-06-07,2025-06-11,148343.0,Yes,Critical,4,60+
+P0266,25.0,Female,AB+,181,102.0,31.1,Migraine,Neurology,Mumbai,2025-03-23,2025-04-02,126387.0,No,Recovered,10,18–30
+P0267,56.0,Female,A-,185,92.0,26.9,Heart Disease,Cardiology,Delhi,2025-01-13,2025-01-26,196457.0,Yes,Ongoing,13,46–60
+P0268,36.0,Male,B+,188,52.0,14.7,Heart Disease,Neurology,Bengaluru,2025-03-09,2025-03-20,236951.0,Yes,Critical,11,31–45
+P0269,33.0,Female,O-,188,91.0,25.7,,Cardiology,Pune,2025-11-13,2025-12-01,246339.0,Yes,Ongoing,18,31–45
+P0270,41.0,Female,A+,176,101.0,32.6,Hypertension,Oncology,Bengaluru,2025-11-07,2025-11-27,69654.0,No,Ongoing,20,31–45
+P0271,73.0,Female,AB-,177,48.0,15.3,Pneumonia,General Medicine,Pune,2025-08-08,2025-08-24,150063.0,No,Ongoing,16,60+
+P0272,74.0,Female,AB+,156,63.0,25.9,Arthritis,Oncology,Kolkata,2025-02-21,2025-03-10,241688.0,No,Ongoing,17,60+
+P0273,27.0,Male,AB+,175,89.0,29.1,Pneumonia,General Medicine,Pune,2025-01-12,2025-01-28,162817.0,No,Recovered,16,18–30
+P0274,63.0,Female,O+,188,50.0,14.1,Migraine,General Medicine,Pune,2025-04-08,2025-04-26,147098.0,Yes,Recovered,18,60+
+P0275,36.0,Female,O-,155,94.0,39.1,Migraine,General Medicine,Kolkata,2025-08-27,2025-09-12,246990.0,Yes,Recovered,16,31–45
+P0276,55.0,Female,,180,75.0,23.1,Migraine,Orthopedics,Kolkata,2025-05-02,2025-05-09,80151.0,No,Recovered,7,46–60
+P0277,65.0,Female,O+,188,102.0,28.9,Migraine,General Medicine,Pune,2025-02-12,2025-02-14,65957.0,No,Recovered,2,60+
+P0278,66.0,Female,B-,181,87.0,26.6,Heart Disease,Neurology,Mumbai,2025-10-06,2025-10-20,150004.0,Yes,Recovered,14,60+
+P0279,56.0,Female,AB+,149,70.0,31.5,Asthma,Orthopedics,Mumbai,2025-03-08,2025-03-09,32958.0,Yes,Ongoing,1,46–60
+P0280,73.0,Female,AB+,190,76.0,21.1,Hypertension,Oncology,Pune,2025-02-11,2025-02-16,162049.0,No,Critical,5,60+
+P0281,52.0,Male,A-,171,54.0,18.5,COVID-19,Oncology,Patna,2025-02-01,2025-02-06,159281.0,No,Critical,5,46–60
+P0282,54.0,Male,B+,181,76.0,23.2,Asthma,Oncology,Pune,2025-03-12,2025-03-21,52944.0,No,Recovered,9,46–60
+P0283,32.0,Male,AB-,151,62.0,27.2,,Oncology,Kolkata,2025-07-11,2025-07-17,106721.0,No,Critical,6,31–45
+P0284,70.0,,O-,153,72.0,30.8,Asthma,General Medicine,Hyderabad,2025-02-26,2025-03-18,101371.0,Yes,Ongoing,20,60+
+P0285,77.0,Male,O+,151,71.0,31.1,Migraine,Neurology,Hyderabad,2025-04-10,2025-04-15,116440.0,No,Critical,5,60+
+P0286,49.0,,B+,169,103.0,36.1,COVID-19,Neurology,Delhi,2025-07-25,2025-08-08,206896.0,Yes,Recovered,14,46–60
+P0287,63.0,Male,B-,149,48.0,21.6,Pneumonia,Oncology,Bengaluru,2025-08-10,2025-08-22,210384.0,Yes,Critical,12,60+
+P0288,82.0,Female,O-,180,110.0,34.0,Heart Disease,Oncology,Pune,2025-11-01,2025-11-05,7144.0,No,Ongoing,4,60+
+P0289,51.0,Male,AB+,181,73.0,22.3,Arthritis,Orthopedics,Pune,2025-03-17,2025-04-06,142594.0,Yes,Recovered,20,46–60
+P0290,65.0,Female,O+,172,87.0,29.4,Arthritis,Pulmonology,Patna,2025-06-17,2025-06-20,221665.0,Yes,Critical,3,60+
+P0291,45.0,Male,A-,151,109.0,47.8,,Cardiology,Delhi,2025-10-20,2025-10-28,104553.0,No,Recovered,8,31–45
+P0292,54.0,Male,B-,185,78.0,22.8,Migraine,Neurology,Mumbai,2025-07-08,2025-07-27,103210.0,No,Critical,19,46–60
+P0293,79.0,Female,O+,173,110.0,36.8,Pneumonia,Orthopedics,Patna,2025-06-25,2025-07-12,110715.0,No,Ongoing,17,60+
+P0294,85.0,Male,O-,165,91.0,33.4,Asthma,Cardiology,Mumbai,2025-05-28,2025-06-14,62214.0,No,Recovered,17,60+
+P0295,65.0,Male,AB-,185,77.0,22.5,Hypertension,General Medicine,Patna,2025-03-08,2025-03-22,,No,Ongoing,14,60+
+P0296,57.0,Female,B-,172,49.0,16.6,Asthma,Orthopedics,Hyderabad,2025-05-29,2025-06-18,187083.0,Yes,Critical,20,46–60
+P0297,61.0,Male,A-,165,,38.6,Hypertension,Oncology,Mumbai,2025-06-27,2025-07-08,238858.0,Yes,Critical,11,60+
+P0298,31.0,Female,O-,157,51.0,20.7,Diabetes,Cardiology,Patna,2025-12-03,2025-12-07,213678.0,Yes,Recovered,4,31–45
+P0299,65.0,Female,A-,153,101.0,43.1,Diabetes,Oncology,Pune,2025-11-24,2025-11-29,5192.0,No,Ongoing,5,60+
+P0300,54.0,Female,AB-,181,57.0,17.4,Pneumonia,Oncology,Patna,2025-06-16,2025-06-26,49485.0,No,Critical,10,46–60
+P0301,79.0,Female,AB+,185,56.0,16.4,Pneumonia,Cardiology,Mumbai,2025-01-14,2025-02-01,,Yes,Ongoing,18,60+
+P0302,30.0,Female,,180,,28.7,COVID-19,Neurology,Kolkata,2025-03-02,2025-03-20,142735.0,No,Ongoing,18,18–30
+P0303,31.0,Female,O+,156,100.0,41.1,Heart Disease,Pulmonology,Hyderabad,2025-01-18,2025-01-31,159885.0,No,Critical,13,31–45
+P0304,75.0,Female,B+,183,46.0,13.7,Diabetes,Oncology,Hyderabad,2025-09-28,2025-10-17,217903.0,Yes,Critical,19,60+
+P0305,46.0,Female,B-,177,99.0,31.6,Diabetes,Neurology,Mumbai,2025-05-07,2025-05-16,127492.0,No,Ongoing,9,46–60
+P0306,,Male,AB-,162,104.0,39.6,Heart Disease,Oncology,Kolkata,2025-07-18,2025-07-20,156959.0,No,Recovered,2,
+P0307,45.0,Male,O-,190,,22.7,Arthritis,Cardiology,Mumbai,2025-04-07,2025-04-10,,Yes,Recovered,3,31–45
+P0308,34.0,Female,O+,160,103.0,40.2,Asthma,Oncology,Delhi,2025-06-14,2025-06-23,18223.0,Yes,Recovered,9,31–45
+P0309,37.0,Female,O+,173,67.0,22.4,Arthritis,Oncology,Hyderabad,2025-09-27,2025-09-28,81408.0,Yes,Critical,1,31–45
+P0310,2.0,Female,B-,148,92.0,42.0,Pneumonia,Cardiology,Bengaluru,2025-04-03,2025-04-14,86639.0,Yes,Ongoing,11,18–30
+P0311,38.0,Male,O+,178,91.0,28.7,Migraine,Cardiology,Pune,2025-12-18,2025-12-24,64026.0,No,Ongoing,6,31–45
+P0312,18.0,Female,AB-,164,71.0,26.4,Pneumonia,Neurology,Mumbai,2025-11-14,2025-11-25,107098.0,No,Recovered,11,18–30
+P0313,76.0,Female,,153,90.0,38.4,Asthma,Oncology,Delhi,2025-01-16,2025-02-04,144093.0,No,Recovered,19,60+
+P0314,62.0,Male,B-,166,67.0,24.3,,Cardiology,Hyderabad,2025-07-21,2025-07-25,136275.0,No,Recovered,4,60+
+P0315,55.0,Female,B-,152,80.0,34.6,Diabetes,Cardiology,Delhi,2025-02-19,2025-03-04,218765.0,Yes,Recovered,13,46–60
+P0316,47.0,Female,AB+,176,110.0,35.5,Pneumonia,Oncology,Patna,2025-08-29,2025-09-05,71401.0,Yes,Recovered,7,46–60
+P0317,28.0,Female,AB-,190,66.0,18.3,Arthritis,Pulmonology,Hyderabad,2025-02-06,2025-02-17,5476.0,Yes,Ongoing,11,18–30
+P0318,47.0,Male,A+,161,98.0,37.8,Heart Disease,Neurology,Patna,2025-11-11,2025-11-12,38869.0,Yes,Recovered,1,46–60
+P0319,20.0,Male,AB-,169,77.0,27.0,Pneumonia,Pulmonology,Pune,2025-07-02,2025-07-10,5591.0,No,Recovered,8,18–30
+P0320,62.0,Female,,180,92.0,28.4,Arthritis,Pulmonology,Mumbai,2025-03-14,2025-03-22,183611.0,Yes,Recovered,8,60+
+P0321,68.0,Female,,145,106.0,50.4,Pneumonia,General Medicine,Kolkata,2025-12-11,2025-12-20,63519.0,Yes,Recovered,9,60+
+P0322,,Female,AB-,152,57.0,24.7,Heart Disease,Pulmonology,Hyderabad,2025-02-16,2025-02-25,232751.0,Yes,Ongoing,9,
+P0323,29.0,Female,O+,155,64.0,26.6,Pneumonia,Oncology,Delhi,2025-02-10,2025-02-12,26288.0,No,Ongoing,2,18–30
+P0324,62.0,Male,O-,162,63.0,24.0,Heart Disease,Orthopedics,Delhi,2025-12-25,2025-12-26,236410.0,No,Recovered,1,60+
+P0325,,Male,AB+,149,50.0,22.5,Pneumonia,Cardiology,Kolkata,2025-07-04,2025-07-05,171329.0,Yes,Ongoing,1,
+P0326,38.0,,A-,189,58.0,16.2,Heart Disease,Cardiology,Bengaluru,2025-01-14,2025-01-19,61457.0,No,Recovered,5,31–45
+P0327,,Male,AB+,152,80.0,34.6,Hypertension,General Medicine,Pune,2025-09-14,2025-09-16,70228.0,Yes,Recovered,2,
+P0328,26.0,Female,AB+,184,,15.7,COVID-19,General Medicine,Kolkata,2025-11-28,2025-12-11,158950.0,No,Recovered,13,18–30
+P0329,36.0,Male,B-,168,85.0,30.1,Asthma,General Medicine,Hyderabad,2025-12-12,2025-12-18,41829.0,No,Recovered,6,31–45
+P0330,60.0,Male,O+,146,78.0,36.6,Heart Disease,Neurology,Mumbai,2025-11-18,2025-12-04,22295.0,No,Ongoing,16,46–60
+P0331,44.0,Female,B+,184,92.0,27.2,Arthritis,Orthopedics,Hyderabad,2025-11-21,2025-11-26,203950.0,Yes,Critical,5,31–45
+P0332,49.0,Female,B+,164,96.0,35.7,Pneumonia,Orthopedics,Bengaluru,2025-07-06,2025-07-22,249921.0,Yes,Recovered,16,46–60
+P0333,26.0,Male,AB+,190,81.0,22.4,Pneumonia,Oncology,Pune,2025-05-21,2025-06-08,61788.0,No,Recovered,18,18–30
+P0334,25.0,Female,A-,173,85.0,28.4,Migraine,Oncology,Mumbai,2025-12-08,2025-12-19,113905.0,Yes,Ongoing,11,18–30
+P0335,27.0,Male,A+,187,,18.3,,Orthopedics,Mumbai,2025-09-15,2025-09-23,190973.0,No,Ongoing,8,18–30
+P0336,63.0,Female,B+,165,88.0,32.3,Migraine,General Medicine,Delhi,2025-12-28,2026-01-09,121157.0,No,Recovered,12,60+
+P0337,80.0,Female,AB+,190,106.0,29.4,Hypertension,Pulmonology,Pune,2025-10-26,2025-10-30,14402.0,Yes,Ongoing,4,60+
+P0338,56.0,Male,O-,167,106.0,38.0,Diabetes,Oncology,Kolkata,2025-04-25,2025-05-10,57873.0,Yes,Ongoing,15,46–60
+P0339,74.0,Female,O+,155,103.0,42.9,Pneumonia,General Medicine,Hyderabad,2025-05-10,2025-05-17,43528.0,Yes,Ongoing,7,60+
+P0340,50.0,Male,AB-,159,90.0,35.6,Arthritis,Pulmonology,Bengaluru,2025-09-09,2025-09-14,182925.0,Yes,Ongoing,5,46–60
+P0341,57.0,Female,O-,180,78.0,24.1,COVID-19,Pulmonology,Mumbai,2025-11-11,2025-11-28,199047.0,Yes,Critical,17,46–60
+P0342,57.0,Male,B+,186,,14.2,Diabetes,Neurology,Hyderabad,2025-06-01,2025-06-04,27941.0,Yes,Critical,3,46–60
+P0343,56.0,Female,A-,169,49.0,17.2,Migraine,Neurology,Mumbai,2025-07-17,2025-08-05,247632.0,No,Ongoing,19,46–60
+P0344,,Female,O+,159,107.0,42.3,Heart Disease,Orthopedics,Patna,2025-10-27,2025-11-13,197250.0,Yes,Ongoing,17,
+P0345,23.0,Female,A-,174,69.0,22.8,Asthma,Cardiology,Mumbai,2025-01-17,2025-01-28,31099.0,No,Recovered,11,18–30
+P0346,28.0,Female,A-,145,101.0,48.0,Diabetes,Cardiology,Patna,2025-05-17,2025-05-31,93261.0,Yes,Critical,14,18–30
+P0347,36.0,Female,O-,149,84.0,37.8,Pneumonia,Orthopedics,Mumbai,2025-04-07,2025-04-25,30527.0,No,Ongoing,18,31–45
+P0348,67.0,Male,,173,59.0,19.7,Pneumonia,Oncology,Bengaluru,2025-03-20,2025-03-26,70787.0,Yes,Critical,6,60+
+P0349,56.0,Female,O+,169,105.0,36.8,COVID-19,Pulmonology,Pune,2025-07-03,2025-07-12,69533.0,Yes,Recovered,9,46–60
+P0350,77.0,Female,AB+,174,71.0,23.5,COVID-19,Neurology,Mumbai,2025-10-28,2025-11-06,147170.0,No,Critical,9,60+
+P0351,62.0,Female,A+,151,70.0,30.7,Diabetes,Orthopedics,Patna,2025-12-08,2025-12-28,160693.0,Yes,Critical,20,60+
+P0352,83.0,Male,O-,146,61.0,28.6,Pneumonia,General Medicine,Hyderabad,2025-01-20,2025-01-22,91365.0,No,Ongoing,2,60+
+P0353,24.0,Male,AB+,173,92.0,30.7,COVID-19,Oncology,Kolkata,2025-04-09,2025-04-28,122292.0,No,Critical,19,18–30
+P0354,52.0,Male,AB-,189,61.0,17.1,Hypertension,General Medicine,Pune,2025-09-19,2025-09-23,127338.0,No,Recovered,4,46–60
+P0355,39.0,Female,O-,170,57.0,19.7,Heart Disease,Oncology,Kolkata,2025-07-10,2025-07-16,35865.0,No,Ongoing,6,31–45
+P0356,21.0,Female,AB-,188,97.0,27.4,Asthma,Oncology,Bengaluru,2025-12-07,2025-12-23,205336.0,No,Recovered,16,18–30
+P0357,77.0,Male,B+,158,82.0,32.8,Heart Disease,General Medicine,Pune,2025-11-11,2025-11-18,180606.0,No,Ongoing,7,60+
+P0358,29.0,Male,O+,148,72.0,32.9,Hypertension,Pulmonology,Delhi,2025-10-10,2025-10-21,47806.0,No,Ongoing,11,18–30
+P0359,66.0,Female,,157,92.0,37.3,Pneumonia,Oncology,Hyderabad,2025-11-23,2025-12-09,,Yes,Recovered,16,60+
+P0360,37.0,Male,A+,150,57.0,25.3,Migraine,Cardiology,Delhi,2025-12-23,2025-12-28,65913.0,Yes,Critical,5,31–45
+P0361,31.0,Female,AB+,155,54.0,22.5,Heart Disease,Neurology,Patna,2025-02-06,2025-02-18,88268.0,No,Critical,12,31–45
+P0362,32.0,Female,,190,86.0,23.8,Asthma,Neurology,Patna,2025-01-06,2025-01-16,128271.0,No,Ongoing,10,31–45
+P0363,32.0,Female,B+,184,63.0,18.6,Hypertension,Pulmonology,Pune,2025-04-03,2025-04-04,45451.0,Yes,Ongoing,1,31–45
+P0364,28.0,Male,AB+,175,73.0,23.8,Diabetes,Orthopedics,Bengaluru,2025-09-12,2025-10-02,105225.0,Yes,Recovered,20,18–30
+P0365,63.0,Male,,180,106.0,32.7,Migraine,Neurology,Hyderabad,2025-01-07,2025-01-09,47978.0,No,Recovered,2,60+
+P0366,57.0,Female,A+,176,61.0,19.7,Pneumonia,Pulmonology,Delhi,2025-01-16,2025-01-18,130525.0,No,Ongoing,2,46–60
+P0367,18.0,Male,AB+,166,,23.6,Asthma,General Medicine,Mumbai,2025-11-15,2025-12-05,84995.0,No,Critical,20,18–30
+P0368,26.0,Male,O-,159,75.0,29.7,Heart Disease,General Medicine,Mumbai,2025-07-31,2025-08-02,62438.0,Yes,Ongoing,2,18–30
+P0369,76.0,Male,B-,182,61.0,18.4,Pneumonia,Oncology,Bengaluru,2025-04-12,2025-04-28,63723.0,Yes,Ongoing,16,60+
+P0370,,Male,,182,65.0,19.6,Asthma,Pulmonology,Delhi,2025-12-28,2026-01-17,98853.0,No,Recovered,20,
+P0371,39.0,Male,O+,181,,24.4,Pneumonia,Cardiology,Bengaluru,2025-01-08,2025-01-18,50825.0,No,Critical,10,31–45
+P0372,31.0,Male,B-,156,96.0,39.4,Heart Disease,General Medicine,Kolkata,2025-04-11,2025-04-23,246894.0,Yes,Recovered,12,31–45
+P0373,83.0,Male,B-,150,104.0,46.2,COVID-19,Neurology,Kolkata,2025-06-12,2025-06-17,21025.0,No,Critical,5,60+
+P0374,76.0,Female,O+,154,91.0,38.4,,Cardiology,Mumbai,2025-01-11,2025-01-24,154927.0,No,Ongoing,13,60+
+P0375,33.0,,O-,162,110.0,41.9,Pneumonia,Pulmonology,Bengaluru,2025-12-20,2025-12-31,140430.0,No,Critical,11,31–45
+P0376,58.0,Female,AB-,189,99.0,27.7,COVID-19,Oncology,Mumbai,2025-04-06,2025-04-23,104600.0,No,Recovered,17,46–60
+P0377,68.0,Female,O-,183,71.0,21.2,,General Medicine,Hyderabad,2025-10-04,2025-10-15,23297.0,Yes,Recovered,11,60+
+P0378,21.0,Male,B-,164,103.0,38.3,Asthma,Neurology,Mumbai,2025-03-23,2025-04-05,152574.0,Yes,Ongoing,13,18–30
+P0379,40.0,Male,,186,102.0,29.5,Arthritis,Neurology,Kolkata,2025-12-01,2025-12-17,29464.0,No,Critical,16,31–45
+P0380,32.0,Female,AB-,183,,27.8,Hypertension,Cardiology,Bengaluru,2025-02-01,2025-02-14,228883.0,No,Critical,13,31–45
+P0381,80.0,Male,B+,175,100.0,32.7,Heart Disease,Cardiology,Pune,2025-12-20,2025-12-24,94795.0,Yes,Ongoing,4,60+
+P0382,82.0,Female,A+,180,95.0,29.3,Heart Disease,General Medicine,Hyderabad,2025-09-08,2025-09-09,84835.0,Yes,Recovered,1,60+
+P0383,83.0,Female,O-,170,82.0,28.4,Heart Disease,General Medicine,Pune,2025-06-05,2025-06-21,137745.0,No,Ongoing,16,60+
+P0384,50.0,Male,O-,181,91.0,27.8,Diabetes,Pulmonology,Mumbai,2025-02-23,2025-03-05,67150.0,Yes,Ongoing,10,46–60
+P0385,39.0,Female,O+,160,50.0,19.5,Heart Disease,Pulmonology,Patna,2025-11-30,2025-12-12,140226.0,No,Recovered,12,31–45
+P0386,79.0,Male,B-,185,61.0,17.8,Arthritis,Orthopedics,Hyderabad,2025-04-04,2025-04-21,,Yes,Critical,17,60+
+P0387,83.0,,A-,181,58.0,17.7,Diabetes,Cardiology,Hyderabad,2025-01-11,2025-01-31,214398.0,Yes,Recovered,20,60+
+P0388,62.0,Female,AB-,162,73.0,27.8,Diabetes,Orthopedics,Delhi,2025-11-19,2025-11-22,221690.0,Yes,Critical,3,60+
+P0389,34.0,Male,A+,154,94.0,39.6,Diabetes,Oncology,Kolkata,2025-04-01,2025-04-13,118590.0,Yes,Ongoing,12,31–45
+P0390,63.0,Male,AB+,148,89.0,40.6,Diabetes,Oncology,Hyderabad,2025-09-09,2025-09-14,171763.0,No,Ongoing,5,60+
+P0391,79.0,Female,A+,158,88.0,35.3,,Oncology,Mumbai,2025-09-09,2025-09-16,175988.0,No,Critical,7,60+
+P0392,29.0,Male,B+,153,46.0,19.7,Migraine,Neurology,Delhi,2025-01-26,2025-02-03,,Yes,Critical,8,18–30
+P0393,32.0,Male,B+,148,79.0,36.1,,Oncology,Pune,2025-10-14,2025-10-23,14098.0,Yes,Critical,9,31–45
+P0394,33.0,Female,A+,176,,28.4,Diabetes,Neurology,Patna,2025-10-13,2025-10-30,27773.0,No,Critical,17,31–45
+P0395,85.0,Female,B-,183,77.0,23.0,Asthma,General Medicine,Delhi,2025-01-17,2025-02-03,141793.0,No,Critical,17,60+
+P0396,55.0,Female,B+,181,62.0,18.9,COVID-19,Orthopedics,Patna,2025-11-27,2025-12-14,,No,Ongoing,17,46–60
+P0397,51.0,Male,O+,173,60.0,20.0,Migraine,General Medicine,Kolkata,2025-12-06,2025-12-23,171044.0,Yes,Critical,17,46–60
+P0398,39.0,Male,O-,184,103.0,30.4,Arthritis,Oncology,Patna,2025-11-15,2025-11-25,161502.0,No,Ongoing,10,31–45
+P0399,55.0,Male,A-,165,109.0,40.0,Hypertension,Pulmonology,Mumbai,2025-03-14,2025-03-29,187157.0,No,Recovered,15,46–60
+P0400,54.0,Male,B+,146,51.0,23.9,Migraine,Orthopedics,Mumbai,2025-07-11,2025-07-15,88897.0,Yes,Recovered,4,46–60
+P0401,33.0,Male,O-,156,92.0,37.8,,General Medicine,Bengaluru,2025-07-03,2025-07-22,28172.0,No,Recovered,19,31–45
+P0402,62.0,Male,A+,146,105.0,49.3,Heart Disease,Orthopedics,Bengaluru,2025-02-20,2025-03-03,211004.0,Yes,Critical,11,60+
+P0403,59.0,Male,B-,177,105.0,33.5,Heart Disease,Neurology,Delhi,2025-10-16,2025-11-05,67151.0,Yes,Recovered,20,46–60
+P0404,35.0,Female,A-,177,78.0,24.9,Heart Disease,Cardiology,Bengaluru,2025-09-10,2025-09-14,133414.0,No,Ongoing,4,31–45
+P0405,44.0,Female,B+,145,58.0,27.6,Pneumonia,Orthopedics,Delhi,2025-08-07,2025-08-25,128997.0,Yes,Critical,18,31–45
+P0406,30.0,Female,O-,148,59.0,26.9,Heart Disease,Cardiology,Mumbai,2025-05-09,2025-05-12,11042.0,Yes,Ongoing,3,18–30
+P0407,,Female,AB+,175,72.0,23.5,Migraine,Cardiology,Hyderabad,2025-07-16,2025-07-24,244973.0,Yes,Ongoing,8,
+P0408,26.0,Male,B+,150,93.0,41.3,Heart Disease,Neurology,Kolkata,2025-08-13,2025-08-19,138618.0,Yes,Ongoing,6,18–30
+P0409,31.0,Female,O+,155,,28.3,Migraine,Pulmonology,Delhi,2025-03-17,2025-03-23,161214.0,Yes,Critical,6,31–45
+P0410,,Female,A+,159,46.0,18.2,,Pulmonology,Hyderabad,2025-10-26,2025-11-12,14330.0,No,Ongoing,17,
+P0411,36.0,Male,B-,161,93.0,35.9,Arthritis,General Medicine,Mumbai,2025-06-27,2025-07-07,237713.0,Yes,Critical,10,31–45
+P0412,41.0,Male,B+,155,48.0,20.0,Diabetes,Oncology,Kolkata,2025-11-14,2025-11-22,206354.0,Yes,Critical,8,31–45
+P0413,78.0,Male,AB+,182,106.0,32.0,COVID-19,Cardiology,Kolkata,2025-01-09,2025-01-12,,Yes,Recovered,3,60+
+P0414,38.0,Female,O-,154,98.0,41.3,Hypertension,Cardiology,Pune,2025-08-02,2025-08-09,,Yes,Critical,7,31–45
+P0415,43.0,Female,,169,62.0,21.7,Heart Disease,Pulmonology,Patna,2025-11-02,2025-11-03,153173.0,Yes,Ongoing,1,31–45
+P0416,64.0,Female,O+,168,88.0,31.2,Diabetes,Oncology,Kolkata,2025-04-04,2025-04-08,207965.0,Yes,Ongoing,4,60+
+P0417,19.0,Male,A-,146,47.0,22.0,Arthritis,General Medicine,Bengaluru,2025-02-12,2025-02-28,167506.0,No,Recovered,16,18–30
+P0418,37.0,Female,A-,164,61.0,22.7,Asthma,Oncology,Delhi,2025-04-24,2025-05-04,197398.0,Yes,Critical,10,31–45
+P0419,52.0,Female,O+,161,55.0,21.2,Asthma,Orthopedics,Pune,2025-06-21,2025-06-22,107763.0,Yes,Recovered,1,46–60
+P0420,20.0,Male,O-,189,88.0,24.6,Arthritis,Pulmonology,Pune,2025-09-13,2025-09-14,68279.0,Yes,Critical,1,18–30
+P0421,32.0,Female,O+,162,71.0,27.1,Pneumonia,Pulmonology,Delhi,2025-05-09,2025-05-20,187336.0,No,Recovered,11,31–45
+P0422,80.0,Female,B-,182,60.0,18.1,Hypertension,Oncology,Delhi,2025-11-15,2025-11-27,81734.0,No,Ongoing,12,60+
+P0423,79.0,Female,O-,177,85.0,27.1,Diabetes,Neurology,Patna,2025-01-02,2025-01-13,8343.0,Yes,Ongoing,11,60+
+P0424,48.0,Female,A-,184,71.0,21.0,Diabetes,Neurology,Mumbai,2025-02-04,2025-02-18,17389.0,No,Ongoing,14,46–60
+P0425,68.0,Female,AB+,171,84.0,28.7,Migraine,General Medicine,Hyderabad,2025-10-10,2025-10-11,106803.0,Yes,Recovered,1,60+
+P0426,25.0,Female,B-,151,91.0,39.9,Heart Disease,Orthopedics,Kolkata,2025-12-24,2025-12-26,69505.0,No,Recovered,2,18–30
+P0427,65.0,Female,B-,170,,16.6,Arthritis,Orthopedics,Bengaluru,2025-11-21,2025-12-03,54726.0,No,Ongoing,12,60+
+P0428,85.0,Male,B-,181,83.0,25.3,Pneumonia,Oncology,Mumbai,2025-05-06,2025-05-21,48189.0,Yes,Ongoing,15,60+
+P0429,72.0,Female,O-,160,46.0,18.0,Asthma,Neurology,Kolkata,2025-01-04,2025-01-07,242387.0,No,Ongoing,3,60+
+P0430,29.0,Female,,185,57.0,16.7,Hypertension,General Medicine,Kolkata,2025-09-12,2025-09-25,15832.0,No,Ongoing,13,18–30
+P0431,40.0,Male,A+,189,54.0,15.1,Pneumonia,Pulmonology,Bengaluru,2025-05-03,2025-05-18,20315.0,No,Ongoing,15,31–45
+P0432,61.0,,O+,146,104.0,48.8,Hypertension,Cardiology,Kolkata,2025-05-05,2025-05-22,197643.0,Yes,Critical,17,60+
+P0433,37.0,Male,A-,162,87.0,33.2,Arthritis,Cardiology,Kolkata,2025-01-17,2025-01-25,57393.0,No,Critical,8,31–45
+P0434,85.0,Female,AB+,147,61.0,28.2,Pneumonia,Orthopedics,Patna,2025-09-07,2025-09-16,215729.0,No,Ongoing,9,60+
+P0435,52.0,Male,A-,183,46.0,13.7,COVID-19,Neurology,Mumbai,2025-04-29,2025-05-09,114370.0,Yes,Recovered,10,46–60
+P0436,46.0,Female,AB+,176,96.0,31.0,Hypertension,Neurology,Kolkata,2025-08-12,2025-08-29,175664.0,Yes,Critical,17,46–60
+P0437,21.0,Female,B+,189,95.0,26.6,Arthritis,Neurology,Hyderabad,2025-07-13,2025-07-16,232688.0,Yes,Critical,3,18–30
+P0438,62.0,Female,AB+,179,66.0,20.6,Pneumonia,Oncology,Mumbai,2025-12-22,2026-01-11,174237.0,No,Ongoing,20,60+
+P0439,83.0,Female,A-,160,84.0,32.8,Pneumonia,Neurology,Pune,2025-03-22,2025-04-07,197537.0,No,Recovered,16,60+
+P0440,23.0,Female,A+,163,51.0,19.2,COVID-19,Pulmonology,Patna,2025-03-21,2025-03-28,,Yes,Ongoing,7,18–30
+P0441,47.0,Male,O+,149,58.0,26.1,Hypertension,Oncology,Hyderabad,2025-02-23,2025-03-11,43341.0,No,Ongoing,16,46–60
+P0442,58.0,Female,AB+,187,61.0,17.4,Arthritis,Neurology,Bengaluru,2025-09-29,2025-10-19,131919.0,No,Recovered,20,46–60
+P0443,25.0,Male,A+,189,73.0,20.4,COVID-19,Neurology,Kolkata,2025-06-13,2025-06-20,89788.0,Yes,Critical,7,18–30
+P0444,33.0,Male,,182,180.0,54.3,Asthma,Orthopedics,Pune,2025-01-04,2025-01-11,192186.0,No,Critical,7,31–45
+P0445,18.0,Male,B-,169,95.0,33.3,Hypertension,Cardiology,Patna,2025-12-01,2025-12-11,134983.0,No,Recovered,10,18–30
+P0446,62.0,Female,A+,158,110.0,44.1,Arthritis,Neurology,Pune,2025-01-25,2025-02-08,10564.0,Yes,Critical,14,60+
+P0447,49.0,Male,A+,161,71.0,27.4,Asthma,Neurology,Bengaluru,2025-09-16,2025-09-28,121880.0,Yes,Recovered,12,46–60
+P0448,63.0,Male,AB+,186,45.0,13.0,COVID-19,Oncology,Kolkata,2025-01-06,2025-01-16,5330.0,No,Ongoing,10,60+
+P0449,55.0,Male,AB+,159,109.0,43.1,Asthma,Neurology,Pune,2025-08-07,2025-08-24,77452.0,No,Recovered,17,46–60
+P0450,75.0,Female,A+,174,71.0,23.5,Asthma,Neurology,Mumbai,2025-04-29,2025-05-14,234291.0,Yes,Critical,15,60+
+P0451,48.0,Male,O-,159,109.0,43.1,Heart Disease,Orthopedics,Kolkata,2025-12-03,2025-12-13,,Yes,Critical,10,46–60
+P0452,20.0,Female,AB-,163,93.0,35.0,Heart Disease,Pulmonology,Mumbai,2025-08-27,2025-09-03,75772.0,Yes,Critical,7,18–30
+P0453,74.0,Male,B+,158,60.0,24.0,Asthma,Neurology,Pune,2025-02-19,2025-03-10,53538.0,Yes,Ongoing,19,60+
+P0454,47.0,Female,A-,159,80.0,31.6,Asthma,Cardiology,Hyderabad,2025-08-18,2025-08-25,132908.0,No,Critical,7,46–60
+P0455,25.0,Female,AB-,163,73.0,27.5,Asthma,Oncology,Mumbai,2025-03-26,2025-04-07,83614.0,Yes,Ongoing,12,18–30
+P0456,52.0,Female,O-,170,104.0,36.0,Hypertension,Pulmonology,Kolkata,2025-02-07,2025-02-25,22637.0,Yes,Critical,18,46–60
+P0457,85.0,Male,A-,179,84.0,26.2,Pneumonia,Oncology,Hyderabad,2025-12-26,2026-01-12,230880.0,No,Critical,17,60+
+P0458,80.0,Female,B-,150,76.0,33.8,Asthma,Cardiology,Hyderabad,2025-10-17,2025-10-18,9455.0,No,Ongoing,1,60+
+P0459,63.0,Female,O+,188,47.0,13.3,Heart Disease,General Medicine,Patna,2025-02-14,2025-02-15,91922.0,Yes,Ongoing,1,60+
+P0460,51.0,Female,A+,159,82.0,32.4,Asthma,Neurology,Bengaluru,2025-08-02,2025-08-05,171573.0,Yes,Ongoing,3,46–60
+P0461,64.0,Female,AB+,181,45.0,13.7,Arthritis,Neurology,Hyderabad,2025-07-23,2025-08-06,5812.0,Yes,Critical,14,60+
+P0462,53.0,Female,AB+,187,51.0,14.6,Arthritis,Orthopedics,Bengaluru,2025-12-16,2026-01-01,143179.0,Yes,Ongoing,16,46–60
+P0463,,Male,AB-,162,109.0,41.5,COVID-19,Orthopedics,Pune,2025-11-05,2025-11-16,174716.0,No,Critical,11,
+P0464,41.0,Female,AB+,165,55.0,20.2,Diabetes,Orthopedics,Patna,2025-09-18,2025-09-20,87613.0,No,Ongoing,2,31–45
+P0465,82.0,Male,AB+,152,107.0,46.3,Asthma,Pulmonology,Mumbai,2025-12-27,2026-01-13,156802.0,Yes,Recovered,17,60+
+P0466,,Male,A-,158,98.0,39.3,COVID-19,Orthopedics,Delhi,2025-09-20,2025-10-09,60338.0,No,Ongoing,19,
+P0467,33.0,Male,AB+,172,74.0,25.0,Diabetes,Neurology,Kolkata,2025-06-20,2025-07-05,206304.0,Yes,Ongoing,15,31–45
+P0468,19.0,Female,B-,189,108.0,30.2,Asthma,Neurology,Delhi,2025-03-11,2025-03-30,58810.0,No,Critical,19,18–30
+P0469,60.0,Female,A+,155,90.0,37.5,Heart Disease,Neurology,Bengaluru,2025-08-25,2025-09-09,36586.0,No,Critical,15,46–60
+P0470,44.0,Male,AB+,176,82.0,26.5,Diabetes,Cardiology,Delhi,2025-08-02,2025-08-16,195446.0,No,Recovered,14,31–45
+P0471,18.0,Male,B+,177,90.0,28.7,Arthritis,Cardiology,Patna,2025-10-08,2025-10-22,,Yes,Critical,14,18–30
+P0472,19.0,Female,A-,185,74.0,21.6,Arthritis,Cardiology,Delhi,2025-09-14,2025-09-26,211831.0,Yes,Recovered,12,18–30
+P0473,56.0,,O+,190,70.0,19.4,Arthritis,Neurology,Patna,2025-11-30,2025-12-13,45174.0,Yes,Recovered,13,46–60
+P0474,22.0,,O+,174,86.0,28.4,,Neurology,Bengaluru,2025-09-03,2025-09-15,,Yes,Ongoing,12,18–30
+P0475,55.0,Female,O+,183,66.0,19.7,Migraine,General Medicine,Delhi,2025-05-23,2025-06-03,166131.0,Yes,Ongoing,11,46–60
+P0476,41.0,Female,,147,101.0,46.7,Hypertension,Orthopedics,Patna,2025-07-02,2025-07-17,112438.0,Yes,Critical,15,31–45
+P0477,78.0,,AB+,165,85.0,31.2,Hypertension,Cardiology,Hyderabad,2025-04-04,2025-04-09,17134.0,Yes,Recovered,5,60+
+P0478,61.0,Female,B-,168,107.0,37.9,Hypertension,Pulmonology,Hyderabad,2025-02-07,2025-02-14,209157.0,Yes,Critical,7,60+
+P0479,34.0,Male,A+,148,47.0,21.5,Arthritis,General Medicine,Patna,2025-11-21,2025-11-22,228785.0,Yes,Ongoing,1,31–45
+P0480,57.0,Female,O-,181,59.0,18.0,Arthritis,Cardiology,Pune,2025-01-26,2025-02-14,122786.0,No,Recovered,19,46–60
+P0481,61.0,Male,AB-,159,73.0,28.9,Arthritis,Neurology,Patna,2025-08-29,2025-08-31,241918.0,No,Critical,2,60+
+P0482,58.0,Female,A-,188,46.0,13.0,Heart Disease,Cardiology,Patna,2025-01-17,2025-01-20,121145.0,Yes,Ongoing,3,46–60
+P0483,42.0,Female,O-,150,58.0,25.8,Pneumonia,Pulmonology,Pune,2025-05-08,2025-05-25,33461.0,Yes,Critical,17,31–45
+P0484,32.0,Female,AB-,169,81.0,28.4,COVID-19,Neurology,Hyderabad,2025-01-12,2025-01-25,175698.0,No,Recovered,13,31–45
+P0485,74.0,Male,AB+,190,105.0,29.1,Hypertension,Cardiology,Patna,2025-01-29,2025-02-06,206465.0,No,Ongoing,8,60+
+P0486,59.0,Female,A+,152,109.0,47.2,Migraine,Pulmonology,Mumbai,2025-01-22,2025-02-04,248502.0,No,Critical,13,46–60
+P0487,54.0,Female,O+,156,53.0,21.8,Diabetes,Oncology,Patna,2025-03-31,2025-04-08,66413.0,No,Critical,8,46–60
+P0488,58.0,Female,A+,171,102.0,34.9,Asthma,Oncology,Bengaluru,2025-02-09,2025-02-15,173935.0,Yes,Critical,6,46–60
+P0489,28.0,Female,O-,166,96.0,34.8,Heart Disease,Oncology,Patna,2025-12-11,2025-12-30,135176.0,Yes,Ongoing,19,18–30
+P0490,27.0,,A-,162,,34.7,COVID-19,Cardiology,Mumbai,2025-08-15,2025-09-04,,No,Ongoing,20,18–30
+P0491,35.0,Female,O-,176,51.0,16.5,Pneumonia,Neurology,Bengaluru,2025-07-22,2025-08-04,15633.0,Yes,Recovered,13,31–45
+P0492,36.0,Female,B+,149,62.0,27.9,Heart Disease,Oncology,Pune,2025-11-27,2025-12-03,165676.0,Yes,Ongoing,6,31–45
+P0493,51.0,Female,B+,184,70.0,20.7,Heart Disease,Orthopedics,Pune,2025-01-21,2025-02-01,50841.0,Yes,Recovered,11,46–60
+P0494,69.0,Female,O+,184,68.0,20.1,Pneumonia,General Medicine,Patna,2025-07-02,2025-07-21,,Yes,Ongoing,19,60+
+P0495,62.0,Male,B+,170,50.0,17.3,,Pulmonology,Pune,2025-01-19,2025-01-25,53711.0,No,Critical,6,60+
+P0496,56.0,Male,O-,188,104.0,29.4,Arthritis,Pulmonology,Bengaluru,2025-11-19,2025-12-09,125685.0,No,Critical,20,46–60
+P0497,30.0,Male,A-,145,45.0,21.4,COVID-19,Pulmonology,Patna,2025-05-05,2025-05-07,73528.0,No,Critical,2,18–30
+P0498,55.0,Male,O+,169,69.0,24.2,Diabetes,General Medicine,Patna,2025-12-27,2026-01-03,165187.0,No,Ongoing,7,46–60
+P0499,63.0,Female,O+,170,62.0,21.5,Heart Disease,Neurology,Kolkata,2025-08-26,2025-09-12,110597.0,Yes,Critical,17,60+
+P0500,61.0,Male,AB+,173,85.0,28.4,Diabetes,Neurology,Mumbai,2025-07-19,2025-08-07,163315.0,No,Ongoing,19,60+
+P0362,32.0,Female,,190,86.0,23.8,Asthma,Neurology,Patna,2025-01-06,2025-01-16,128271.0,No,Ongoing,10,31–45
+P0074,73.0,Male,B-,156,57.0,23.4,,General Medicine,Mumbai,2025-10-12,2025-10-29,67262.0,No,Recovered,17,60+
+P0375,33.0,,O-,162,110.0,41.9,Pneumonia,Pulmonology,Bengaluru,2025-12-20,2025-12-31,140430.0,No,Critical,11,31–45
+P0156,46.0,Male,A-,184,70.0,20.7,Pneumonia,Oncology,Delhi,2025-09-12,2025-09-18,226006.0,Yes,Critical,6,46–60
+P0105,50.0,Female,A+,168,91.0,32.2,Hypertension,Oncology,Patna,2025-03-01,2025-03-09,190723.0,No,Recovered,8,46–60
+P0395,85.0,Female,B-,183,77.0,23.0,Asthma,General Medicine,Delhi,2025-01-17,2025-02-03,141793.0,No,Critical,17,60+
+P0378,21.0,Male,B-,164,103.0,38.3,Asthma,Neurology,Mumbai,2025-03-23,2025-04-05,152574.0,Yes,Ongoing,13,18–30
+P0125,51.0,Female,O+,172,55.0,18.6,Arthritis,Pulmonology,Delhi,2025-01-08,2025-01-19,127568.0,No,Ongoing,11,46–60
+P0069,59.0,Male,O+,169,61.0,21.4,Pneumonia,Oncology,Kolkata,2025-04-30,2025-05-02,76489.0,Yes,Ongoing,2,46–60
+P0451,48.0,Male,O-,159,109.0,43.1,Heart Disease,Orthopedics,Kolkata,2025-12-03,2025-12-13,,Yes,Critical,10,46–60
+P0010,26.0,Male,O+,177,90.0,28.7,Diabetes,Pulmonology,Bengaluru,2025-12-29,2026-01-01,24263.0,No,Recovered,3,18–30
+P0195,55.0,Male,O-,146,64.0,30.0,Migraine,General Medicine,Mumbai,2025-05-16,2025-05-22,,Yes,Recovered,6,46–60
+P0407,,Female,AB+,175,72.0,23.5,Migraine,Cardiology,Hyderabad,2025-07-16,2025-07-24,244973.0,Yes,Ongoing,8,
+P0085,59.0,Female,O-,190,45.0,12.5,Diabetes,Neurology,Pune,2025-12-01,2025-12-16,73031.0,Yes,Ongoing,15,46–60
+P0372,31.0,Male,B-,156,96.0,39.4,Heart Disease,General Medicine,Kolkata,2025-04-11,2025-04-23,246894.0,Yes,Recovered,12,31–45
